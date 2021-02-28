@@ -1,0 +1,24 @@
+{
+  "name": "@pierreminiggio/difter-poster",
+  "version": "1.0.0",
+  "description": "Scrapes Difter Groups",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierreminiggio/difter-poster.git"
+  },
+  "author": "Pierre MINIGGIO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pierreminiggio/difter-poster/issues"
+  },
+  "homepage": "https://github.com/pierreminiggio/difter-poster#readme",
+  "dependencies": {
+    "@pierreminiggio/puppeteer-text-typer": "github:pierreminiggio/puppeteer-text-typer",
+    "puppeteer": "^5.5.0"
+  }
+}
